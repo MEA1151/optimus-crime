@@ -7,7 +7,7 @@
   Pair Name: "RoboticCar"
   ============================================================
 */
-
+#include "Ultrasonic.h"
 // 3bhkem waz here
 #include "BluetoothSerial.h"
 #define PIN_BATT_ADC       34       // GPIO34 (ADC-only pin)
