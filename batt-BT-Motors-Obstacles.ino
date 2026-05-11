@@ -368,7 +368,7 @@ void autoPark()
 
   else if (parkingState == 1)
   {
-    turnRight(DEFAULT_SPEED);
+    turnRight();
 
     delay(700);
 
@@ -414,7 +414,7 @@ void autoPark()
 
   else if (parkingState == 3)
   {
-    turnLeft(DEFAULT_SPEED);
+    turnLeft();
 
     delay(600);
 
