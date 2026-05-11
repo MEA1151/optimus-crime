@@ -167,9 +167,9 @@ void stopCar()      { stop();                              }
 #include <Servo.h>
 #include <NewPing.h>
 
-int servo_pin = 3;
-int trig_pin = 4;
-int echo_pin = 15;
+int servo_pin = 25;    
+int trig_pin  = 14;    
+int echo_pin  = 15;
 
 int check_dist = 20;
 
