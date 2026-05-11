@@ -162,16 +162,14 @@ void moveBackward() { backward(DEFAULT_SPEED);             }
 void turnLeft()     { anticlockwise_rotate(DEFAULT_SPEED); }
 void turnRight()    { clockwise_rotate(DEFAULT_SPEED);     }
 void stopCar()      { stop();                              }
-void autoPark() {
- //call_autopark
-}
+
 /*<MOUSTAFA WAZ HERE>*/
 #include <Servo.h>
 #include <NewPing.h>
 
 int servo_pin = 3;
 int trig_pin = 4;
-int echo_pin = 5;
+int echo_pin = 15;
 
 int check_dist = 20;
 
